@@ -51,7 +51,7 @@ const Cart = props => {
 
     const senWhatsUpHandler = (userData)=>{
         const mensaje = getMessageToSend(userData,cartCtx.items);
-        let href = "https://api.whatsapp.com/send?phone=541122754695&text="+mensaje;
+        let href = "https://api.whatsapp.com/send?phone=541136283520&text="+mensaje;
         let but = document.getElementById("hiddenButton");
         but.setAttribute('href', href);
         console.log(but.getAttribute('href'));
