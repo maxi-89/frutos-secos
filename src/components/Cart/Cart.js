@@ -42,7 +42,7 @@ const Cart = props => {
     }
     const getMessageToSend= (dataUser, items)=>{
         let message = 'Nombre: '+dataUser.name + ' %0ADireccion: '+dataUser.street+ ' %0ABarrio: '+dataUser.city +
-           +'%0ATelefono: '+dataUser.postalCode + ' %0APedido:  %0A ';
+           ' %0ATelefono: '+ dataUser.postalCode + ' %0APedido:  %0A ';
         items.forEach(item =>{
             message += item.name + ' ' + item.amount + 'grs  %0A';
         })
