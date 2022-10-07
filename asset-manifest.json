@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/frutos-secos/static/css/main.01b8bd6c.chunk.css",
-    "main.js": "/frutos-secos/static/js/main.ecdf1315.chunk.js",
-    "main.js.map": "/frutos-secos/static/js/main.ecdf1315.chunk.js.map",
+    "main.css": "/frutos-secos/static/css/main.27d53814.chunk.css",
+    "main.js": "/frutos-secos/static/js/main.56c2cff1.chunk.js",
+    "main.js.map": "/frutos-secos/static/js/main.56c2cff1.chunk.js.map",
     "runtime-main.js": "/frutos-secos/static/js/runtime-main.7a76fb8f.js",
     "runtime-main.js.map": "/frutos-secos/static/js/runtime-main.7a76fb8f.js.map",
-    "static/js/2.3cef60c0.chunk.js": "/frutos-secos/static/js/2.3cef60c0.chunk.js",
-    "static/js/2.3cef60c0.chunk.js.map": "/frutos-secos/static/js/2.3cef60c0.chunk.js.map",
+    "static/js/2.2e14a255.chunk.js": "/frutos-secos/static/js/2.2e14a255.chunk.js",
+    "static/js/2.2e14a255.chunk.js.map": "/frutos-secos/static/js/2.2e14a255.chunk.js.map",
     "index.html": "/frutos-secos/index.html",
-    "static/css/main.01b8bd6c.chunk.css.map": "/frutos-secos/static/css/main.01b8bd6c.chunk.css.map",
-    "static/js/2.3cef60c0.chunk.js.LICENSE.txt": "/frutos-secos/static/js/2.3cef60c0.chunk.js.LICENSE.txt",
+    "static/css/main.27d53814.chunk.css.map": "/frutos-secos/static/css/main.27d53814.chunk.css.map",
+    "static/js/2.2e14a255.chunk.js.LICENSE.txt": "/frutos-secos/static/js/2.2e14a255.chunk.js.LICENSE.txt",
     "static/media/meals.a2854522.jpg": "/frutos-secos/static/media/meals.a2854522.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7a76fb8f.js",
-    "static/js/2.3cef60c0.chunk.js",
-    "static/css/main.01b8bd6c.chunk.css",
-    "static/js/main.ecdf1315.chunk.js"
+    "static/js/2.2e14a255.chunk.js",
+    "static/css/main.27d53814.chunk.css",
+    "static/js/main.56c2cff1.chunk.js"
   ]
 }
