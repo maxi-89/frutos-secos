@@ -42,10 +42,11 @@ const Cart = props => {
     }
     const getMessageToSend= (dataUser, items)=>{
         let message = 'Nombre: '+dataUser.name + ' %0ADireccion: '+dataUser.street+ ' %0ABarrio: '+dataUser.city +
-           ' %0ATelefono: '+ dataUser.postalCode + ' %0APedido:  %0A ';
+           ' %0ATelefono: '+ dataUser.postalCode + ' %0APedido:%0A';
         items.forEach(item =>{
             message += item.name + ' ' + item.amount + 'grs  %0A';
         })
+        message+= '%0A Total: $ ' + cartCtx.totalAmount;
         return message;
     };
 
@@ -79,8 +80,8 @@ const Cart = props => {
     const hasItems = cartCtx.items.length > 0;
 
     const modalActions = (<div className={classes.actions}>
-        <button className={classes['button-alt']} onClick={props.onClose}>Close</button>
-        {hasItems && <button className={classes.button} onClick={orderHandler}>Order</button>}
+        <button className={classes['button-alt']} onClick={props.onClose}>Volver</button>
+        {hasItems && <button className={classes.button} onClick={orderHandler}>Enviar</button>}
     </div>);
 
     const cartModalContent = (<React.Fragment>
@@ -95,10 +96,10 @@ const Cart = props => {
         {!isCheckout && modalActions}
     </React.Fragment>);
 
-    const isSubmittingModalContent = <p>Sending order data...</p>;
-    const didSubmitModalContent = <React.Fragment><p>Successfully sent the order!! ...</p>
+    const isSubmittingModalContent = <p>Enviando orden...</p>;
+    const didSubmitModalContent = <React.Fragment><p>La orden se envio con exito!! ...</p>
         <div className={classes.actions}>
-        <button className={classes.button} onClick={props.onClose}>Close</button>
+        <button className={classes.button} onClick={props.onClose}>Cerrar</button>
         </div>
     </React.Fragment>
 
