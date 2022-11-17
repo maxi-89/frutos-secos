@@ -2,6 +2,7 @@ import classes from './AvailableMeals.module.css';
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
 import {useEffect, useState} from "react";
+import MealItemDestacado from "./MealItem/MealItemDestacado";
 
 
 
@@ -57,7 +58,16 @@ const AvailableMeals = () => {
                                                        description={meal.description}
                                                        price={meal.price} url={meal.url}></MealItem>);
     return (<section className={classes.meals}>
-
+        <Card>
+            <h3>PRODUCTOS DESTACADOS!</h3>
+            <div className={classes.divider}></div>
+            <ul>
+                <MealItemDestacado id={"0001"} key={"0001"} name={"Aceitunas Verdes y Negras"}
+                          description={"Producto Destacado!!"}
+                          price={1200} url={"https://i.imgur.com/cqcjjpq.jpg"}></MealItemDestacado>
+            </ul>
+        </Card>
+            <div className={classes.divider}></div>
             <Card>
                 <ul>
                     {mealList}

@@ -32,3 +32,8 @@
     text-align: center;
     color: red;
 }
+
+.divider{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
