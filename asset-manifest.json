@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frutos-secos/static/css/main.35c6095d.chunk.css",
-    "main.js": "/frutos-secos/static/js/main.05e0b469.chunk.js",
-    "main.js.map": "/frutos-secos/static/js/main.05e0b469.chunk.js.map",
+    "main.js": "/frutos-secos/static/js/main.f9ce20b4.chunk.js",
+    "main.js.map": "/frutos-secos/static/js/main.f9ce20b4.chunk.js.map",
     "runtime-main.js": "/frutos-secos/static/js/runtime-main.7a76fb8f.js",
     "runtime-main.js.map": "/frutos-secos/static/js/runtime-main.7a76fb8f.js.map",
     "static/js/2.5667fb46.chunk.js": "/frutos-secos/static/js/2.5667fb46.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.7a76fb8f.js",
     "static/js/2.5667fb46.chunk.js",
     "static/css/main.35c6095d.chunk.css",
-    "static/js/main.05e0b469.chunk.js"
+    "static/js/main.f9ce20b4.chunk.js"
   ]
 }
