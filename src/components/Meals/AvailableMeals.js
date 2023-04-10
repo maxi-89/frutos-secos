@@ -64,7 +64,7 @@ const AvailableMeals = () => {
             <ul>
                 <MealItemDestacado id={"0001"} key={"0001"} name={"Aceitunas Verdes y Negras"}
                           description={"Producto Destacado!!"}
-                          price={1200} url={"https://i.imgur.com/cqcjjpq.jpg"}></MealItemDestacado>
+                          price={1700} url={"https://i.imgur.com/cqcjjpq.jpg"}></MealItemDestacado>
             </ul>
         </Card>
             <div className={classes.divider}></div>
