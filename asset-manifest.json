@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/frutos-secos/static/css/main.35c6095d.chunk.css",
-    "main.js": "/frutos-secos/static/js/main.f9ce20b4.chunk.js",
-    "main.js.map": "/frutos-secos/static/js/main.f9ce20b4.chunk.js.map",
+    "main.js": "/frutos-secos/static/js/main.bf681d34.chunk.js",
+    "main.js.map": "/frutos-secos/static/js/main.bf681d34.chunk.js.map",
     "runtime-main.js": "/frutos-secos/static/js/runtime-main.7a76fb8f.js",
     "runtime-main.js.map": "/frutos-secos/static/js/runtime-main.7a76fb8f.js.map",
-    "static/js/2.5667fb46.chunk.js": "/frutos-secos/static/js/2.5667fb46.chunk.js",
-    "static/js/2.5667fb46.chunk.js.map": "/frutos-secos/static/js/2.5667fb46.chunk.js.map",
+    "static/js/2.79ecacbe.chunk.js": "/frutos-secos/static/js/2.79ecacbe.chunk.js",
+    "static/js/2.79ecacbe.chunk.js.map": "/frutos-secos/static/js/2.79ecacbe.chunk.js.map",
     "index.html": "/frutos-secos/index.html",
     "static/css/main.35c6095d.chunk.css.map": "/frutos-secos/static/css/main.35c6095d.chunk.css.map",
-    "static/js/2.5667fb46.chunk.js.LICENSE.txt": "/frutos-secos/static/js/2.5667fb46.chunk.js.LICENSE.txt",
+    "static/js/2.79ecacbe.chunk.js.LICENSE.txt": "/frutos-secos/static/js/2.79ecacbe.chunk.js.LICENSE.txt",
     "static/media/meals.a2854522.jpg": "/frutos-secos/static/media/meals.a2854522.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7a76fb8f.js",
-    "static/js/2.5667fb46.chunk.js",
+    "static/js/2.79ecacbe.chunk.js",
     "static/css/main.35c6095d.chunk.css",
-    "static/js/main.f9ce20b4.chunk.js"
+    "static/js/main.bf681d34.chunk.js"
   ]
 }
