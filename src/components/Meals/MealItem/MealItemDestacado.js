@@ -12,7 +12,8 @@ const MealItemDestacado = (props) => {
             id: props.id,
             name: props.name,
             amount: amount,
-            price: props.price
+            price: props.price,
+            unidad: props.unidad
         })
     }
 
@@ -23,11 +24,11 @@ const MealItemDestacado = (props) => {
         <div>
             <h3>{props.name}</h3>
             <div className={classes.description}>{props.description}</div>
-            <div className={classes.price}>{price} kg</div>
+            <div className={classes.price}>{price} { props.unidad }</div>
         </div>
         </div>
         <div>
-            <MealItemDestacadoForm id={props.id} onAddToCart={addToCartHandler}></MealItemDestacadoForm>
+            <MealItemDestacadoForm id={props.id} unidad={props.unidad} onAddToCart={addToCartHandler}></MealItemDestacadoForm>
         </div>
     </li>
 }

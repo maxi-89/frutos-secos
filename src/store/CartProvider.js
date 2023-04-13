@@ -7,7 +7,14 @@ const defaultCartState = {
 };
 const cartReducer = (state, action) => {
         if (action.type === 'ADD') {
-            const updatedTotalAmount = state.totalAmount + (action.item.price / 1000) * action.item.amount;
+            console.log(action.item.unidad)
+            let updatedTotalAmount;
+            if(action.item.unidad === 'xunidad'){
+                updatedTotalAmount = state.totalAmount + (action.item.price * action.item.amount) ;
+            }else{
+                updatedTotalAmount = state.totalAmount + (action.item.price / 1000) * action.item.amount;
+            }
+            
 
 
             const existingCartItemIndex = state.items.findIndex(item => item.id === action.item.id);
@@ -36,15 +43,32 @@ const cartReducer = (state, action) => {
             (item) => item.id === action.id
         );
         const existingItem = state.items[existingCartItemIndex];
-        const updatedTotalAmount = state.totalAmount - (existingItem.price / 1000) * 100;
-        let updatedItems;
-        if (existingItem.amount === 100) {
-            updatedItems = state.items.filter(item => item.id !== action.id);
-        } else {
-            const updatedItem = { ...existingItem, amount: existingItem.amount - 100 };
-            updatedItems = [...state.items];
-            updatedItems[existingCartItemIndex] = updatedItem;
+        let updatedTotalAmount;
+        if(existingItem.unidad === 'xunidad'){
+            updatedTotalAmount = state.totalAmount - existingItem.price;
+        }else{
+            updatedTotalAmount = state.totalAmount - (existingItem.price / 1000) * 100;
         }
+        let updatedItems;
+        if(existingItem.unidad === 'xunidad'){
+            if (existingItem.amount === 1) {
+                updatedItems = state.items.filter(item => item.id !== action.id);
+            } else {
+                const updatedItem = { ...existingItem, amount: existingItem.amount - 1 };
+                updatedItems = [...state.items];
+                updatedItems[existingCartItemIndex] = updatedItem;
+            }
+
+        }else{
+            if (existingItem.amount === 100) {
+                updatedItems = state.items.filter(item => item.id !== action.id);
+            } else {
+                const updatedItem = { ...existingItem, amount: existingItem.amount - 100 };
+                updatedItems = [...state.items];
+                updatedItems[existingCartItemIndex] = updatedItem;
+            }
+        }
+       
 
         return {
             items: updatedItems,
