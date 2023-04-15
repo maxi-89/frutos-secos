@@ -18,3 +18,35 @@
     background-color: #641e03;
     border-color: #641e03;
 }
+
+
+@media (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    .form {
+
+        margin-top: 30px;
+    }
+    .form button {
+        margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Estilos para dispositivos de escritorio */
+    .form {
+        text-align: center;
+        width: 400px;
+
+        margin-top: 30px;
+    }
+
+    .form button {
+        width:100%;
+        border-radius: 5px;
+        margin-top: 30px;
+        height: 40px;
+    }
+    
+    
+  }
+  
