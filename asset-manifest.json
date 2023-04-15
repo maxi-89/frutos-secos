@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frutos-secos/static/css/main.766dee9a.chunk.css",
+    "main.css": "/frutos-secos/static/css/main.82a5add9.chunk.css",
     "main.js": "/frutos-secos/static/js/main.5a1a1c27.chunk.js",
     "main.js.map": "/frutos-secos/static/js/main.5a1a1c27.chunk.js.map",
     "runtime-main.js": "/frutos-secos/static/js/runtime-main.7a76fb8f.js",
@@ -8,14 +8,14 @@
     "static/js/2.fb20871b.chunk.js": "/frutos-secos/static/js/2.fb20871b.chunk.js",
     "static/js/2.fb20871b.chunk.js.map": "/frutos-secos/static/js/2.fb20871b.chunk.js.map",
     "index.html": "/frutos-secos/index.html",
-    "static/css/main.766dee9a.chunk.css.map": "/frutos-secos/static/css/main.766dee9a.chunk.css.map",
+    "static/css/main.82a5add9.chunk.css.map": "/frutos-secos/static/css/main.82a5add9.chunk.css.map",
     "static/js/2.fb20871b.chunk.js.LICENSE.txt": "/frutos-secos/static/js/2.fb20871b.chunk.js.LICENSE.txt",
     "static/media/meals.a2854522.jpg": "/frutos-secos/static/media/meals.a2854522.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7a76fb8f.js",
     "static/js/2.fb20871b.chunk.js",
-    "static/css/main.766dee9a.chunk.css",
+    "static/css/main.82a5add9.chunk.css",
     "static/js/main.5a1a1c27.chunk.js"
   ]
 }
