@@ -47,8 +47,6 @@ const AvailableMeals = () => {
                
             }
 
-            console.log(loadedMealsKilo)
-            console.log(loadedMealsDestacado)
             setMealsKilo(loadedMealsKilo);
             setMealsDestacado(loadedMealsDestacado);
             setIsLoading(false);

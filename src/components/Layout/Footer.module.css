@@ -1,9 +1,11 @@
 .footer {
     position: fixed;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 2rem;
-    background-color: #3e9965;
+    background-color: #1B4D3E;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -11,8 +13,26 @@
     padding: 0 10%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     justify-content: center;
+    
 }
 
 .text{
-
+    text-align: center;
+    margin-right: 30px;
 }
+
+.text a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        justify-content: space-between !important;
+    }
+
+    .text{
+        text-align: center;
+        margin-right: 0px;
+    }
+  }
