@@ -8,8 +8,12 @@ const MealsSummary = ()=>{
             <p>Las frutas secas se destacan por sus beneficios para el corazón y sus propiedades
                 antioxidantes. Reducen los niveles de colesterol malo (LDL) y aumenta el bueno (HDL).
                 Aportan proteínas, vitaminas B y E y minerales como hierro, calcio, magnesio, potasio y fósforo.</p>
-            <p>Nuestra misión es brindar un excelente servicio a los clientes, proveer mercadería
-                de primera calidad generando vínculos que duren para toda la vida.</p>
+                <p>
+                <a href="https://docs.google.com/spreadsheets/d/1kwL3YaZNy31Mmi8tn5KXeuiJLKUadUjM5DfkDL6McVU/edit?usp=sharing"
+                   className={classes.button}>
+                    ¡LISTA DE PRECIOS AQUÍ!
+                </a>
+            </p>
         </section>
     );
 }

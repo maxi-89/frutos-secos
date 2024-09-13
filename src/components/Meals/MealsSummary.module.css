@@ -16,3 +16,22 @@
     font-size: 2rem;
     margin-top: 0;
 }
+
+.button {
+    display: inline-block;
+    padding: 20px 40px; /* Aumenta el tamaño del botón */
+    font-size: 20px; /* Aumenta el tamaño del texto */
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5722; /* Un color más llamativo (naranja vibrante) */
+    border: none;
+    border-radius: 8px; /* Esquinas más redondeadas */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Añade una transición suave para el hover */
+}
+
+.button:hover {
+    background-color: #e64a19; /* Color cuando se pasa el ratón por encima (naranja oscuro) */
+    transform: scale(1.05); /* Agranda ligeramente el botón cuando se pasa el ratón por encima */
+}
